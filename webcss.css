@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/*Home*/
+.home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #FFEBCD;
+    position: relative;
+}
+nav{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+    align-items: center;
+    justify-content: space-between;
+    background-color:   #BC8F8F;
+    border-bottom: 1px solid black;
+}
+.logo{
+    color: #FFEFD5;
+    font-size: 25px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: pink;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.detel{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.detel h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+span{
+    color: orange; 
+}
+.detel p{
+    color: black;
+    line-height: 30px;
+    font-size: 20px;
+}
+.images{
+    width: 50%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 100%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+/*pendidikan*/
+.pendidikan {
+    text-align: center;
+    background-color: #fafafa;
+    height: 600px;
+    padding-top: 50px;
+}
+.cardSchool {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pendidikan h2 {
+    margin-top: 80px;
+}
+.card {
+    color: black;
+    background-color: white;
+    margin-left: 40px;
+    min-height: 400px;
+    min-width: 300px;
+    max-width: 230px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px #fccddd;
+    padding-top: 20px;
+    font-size: large;
+    margin: 60px;
+}
+.card h3 {
+    font-size: 25px;
+    line-height: 40px;
+    padding-top: 50px;
+}
+.card h4 {
+    font-size: 24px;
+    padding: 20px;
+}
+.card img {
+    width: 160px;
+    height: 160px;
+}
+/* Jadwal Kuliah */
+.kuliah {
+    background-color: #ADD8E6;
+    color: rgba(0, 0, 0, 0.667);
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.kuliah table {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background: floralwhite;
+    border: 1px solid;
+    margin : 0 auto;
+}
+table tr {
+    text-align: center;
+    padding-left: 15px;
+}
+table td {
+    font-size: 20px;
+    padding: 8px;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid coral;
+    border-left: 1px solid coral;
+    background: whitesmoke;
+}
+table th {
+    font-size: 32px;
+    padding: 15px 35px;
+    border-top: 1px solid coral;
+    border-bottom: 1px solid coral;
+    border-left: 1px solid coral;
+    background: orange;
+    color: #fafafa;
+}
+/*aktivitas*/
+.activitas {
+    background-color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.kartu {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.cardact {
+    color: black;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 40px;
+    max-width: 300px;
+    min-height: 350px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px #000000;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    margin: 60px;
+}
+.cardact h2 {
+    font-size: 24px;
+}
+.cardact span {
+    font-weight: bold;
+    color: coral;
+}
+.card p {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.imglogo {
+    height: 140px;
+    width: 140px;
+}
+.cardact p {
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+.cardact img {
+    font-size: 20px;
+    padding: 10px;
+}
+.cardact h2 {
+    font-size: 32px;
+    padding: 10px;
+}
+.title {
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/*cv*/
+.downloadcv {
+    background-color: #FA8072;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.title {
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.see a{
+    background-color: pink;
+    color: black;
+    border: 2px solid black;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+.see:hover {
+    transfrom: scole(1.2);
+    border: 5px solid pink;
+    background-color: transparant;
+}
+.social a:hover{
+    color: orange;
+}
